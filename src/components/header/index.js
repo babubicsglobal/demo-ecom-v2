@@ -31,7 +31,7 @@ function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
+          <Link href="javascript:void(0);" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img
               className="h-16 w-auto"
@@ -87,7 +87,7 @@ function Header() {
           {mainMenuList.map((item, index) => (
             <Link
               key={index}
-              href={item.fields.link}
+              href="javascript:void(0);"
               className="text-sm font-semibold leading-6 text-white text-sm"
             >
               {item.fields.title}
@@ -96,7 +96,7 @@ function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="#"
+            href="javascript:void(0);"
             className="text-sm font-semibold leading-6 text-white text-sm"
           >
             Log in <span aria-hidden="true">&rarr;</span>

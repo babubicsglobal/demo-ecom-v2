@@ -140,7 +140,7 @@ const PageListCards = ({
                   <h1 className="text-lg subheading">
                     <a
                       className="no-underline hover:underline text-white"
-                      href="#"
+                      href="javascript:void(0);"
                     >
                       {/* {item?.commerceProduct?.masterData?.staged?.name?.en} */}
                       {isActive
@@ -184,7 +184,7 @@ const PageListCards = ({
                 <footer className="flex items-center justify-between leading-none p-2 md:p-4">
                   <a
                     className="no-underline hover:underline text-white"
-                    href="#"
+                    href="javascript:void(0);"
                   >
                     See all{" "}
                     {
@@ -213,7 +213,7 @@ const PageListCards = ({
                 key={index}
               >
                 <article className="overflow-hidden rounded-lg shadow-lg card-list">
-                  <Link href="">
+                  <Link href="javascript:void(0);">
                     <img
                       alt="Placeholder"
                       className="block h-72 w-full object-contain"
@@ -226,7 +226,7 @@ const PageListCards = ({
                       <h1 className="text-lg subheading">
                         <a
                           className="no-underline hover:underline text-white"
-                          href="#"
+                          href="javascript:void(0);"
                         >
                           {/* {item?.commerceProduct?.masterData?.staged?.name?.en} */}
                           {item?.commerceItem?.name}
@@ -259,7 +259,7 @@ const PageListCards = ({
                     <footer className="flex items-center justify-between leading-none p-2 md:p-4">
                       <a
                         className="no-underline hover:underline text-white"
-                        href="#"
+                        href="javascript:void(0);"
                       >
                         See all {item?.commerceItem?.name} products
                       </a>
