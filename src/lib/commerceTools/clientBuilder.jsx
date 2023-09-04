@@ -1,7 +1,7 @@
 import { ClientBuilder } from "@commercetools/sdk-client-v2";
 import { createApiBuilderFromCtpClient } from "@commercetools/platform-sdk";
 
-const CTP_PROJECT_KEY = "app_storebics";
+const CTP_PROJECT_KEY = "bics-store-key";
 
 export const projectKey = CTP_PROJECT_KEY;
 
@@ -9,8 +9,8 @@ const authMiddlewareOptions = {
   host: "https://auth.us-central1.gcp.commercetools.com",
   projectKey,
   credentials: {
-    clientId: "6FUN6BS81oC-CxRsy47JrDqB",
-    clientSecret: "yGcyOVhnZ3CnD7Hyvq9Ki4TtsiDw-ch5",
+    clientId: "af3frdj4hiKqufMagZpMq98E",
+    clientSecret: "l7dy8x1PutzX82sX0XCYgDiyPHlUjNZ9",
   },
   scopes: [`manage_project:${projectKey}`],
 };
